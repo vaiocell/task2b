@@ -14,7 +14,7 @@ function nameConverse(query) {
       userName = (fullName[fullName.length - 1].concat(' ', fullName[0].slice(0, 1), '. ', fullName[1].slice(0, 1), '.'));
       break;
     case 2:
-      userName = (fullName[fullName.length - 1].concat(' ', fullName[0].slice(0, 1)));
+      userName = (fullName[fullName.length - 1].concat(' ', fullName[0].slice(0, 1), '. '));
       break;
     case 1:
       userName = (fullName[fullName.length - 1]);
